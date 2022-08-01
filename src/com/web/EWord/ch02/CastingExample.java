@@ -34,13 +34,13 @@ public class CastingExample {
 		
 
 		
-		// string을 int로 변환
+		// int를 string으로 변환
 //		String stringValue2 = "123";
 //		int intValue2 = Integer.parseInt(stringValue2);
 		String stringValue2 = String.valueOf(intValue);
 		System.out.println("stringValue2: " + stringValue2);
 		
-		// int를 string으로 변환
+		// string을 int로 변환
 //		int intValue1 = 123;
 //		String stringValue = Integer.toString(intValue1);
 		int intValue2 = Integer.parseInt(stringValue2);
