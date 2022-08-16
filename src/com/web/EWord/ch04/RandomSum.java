@@ -35,7 +35,8 @@ public class RandomSum {
 		
 		int random1 = (int) ((Math.random() * (max-min)) + min);
 		int random2 = (int) ((Math.random() * (max-min)) + min);
-		System.out.println("random1 : " + random1 + ", random2 : " + random2);
+		System.out.println("random1 : " + random1 + 
+				", random2 : " + random2);
 		
 		if(random1 > random2) {
 			for(int i = random2; i <= random1; i++) {
