@@ -84,14 +84,6 @@ public class ForExample {
 			}
 		}
 		
-		for(int i=1;i<=5;i++) {
-			for(int j=1;j<=10;j++) {
-				System.out.print("*");
-				if(j==10) {
-					System.out.printf("%n");
-				}
-			}
-		}
 		
 	}
 
