@@ -117,6 +117,17 @@ public class ArrayInArrayExample {
 		
 		System.out.println("---------------------");
 		
+		int[] sum2 = new int[3];
+		
+		for(int i=0; i<scores.length;i++) {
+			for(int j=0; j<scores[i].length; j++) {
+				sum2[j] += scores[i][j];
+			}
+		}
+		for(int i=0; i<sum2.length; i++) {
+			System.out.println(subject[i]+" 과목의 평균 점수는: " +((double)sum2[i]/scores.length));
+		}
+		
 	}
 
 }
