@@ -6,6 +6,7 @@ public class IPhoneExample {
 
 //		. 연산자는 변수와 함수가 돌아가게끔 하는 것이다.
 		
+		// 객체화
 		IPhone iphone = new IPhone();
 		
 		System.out.println("iphone.name : " + iphone.name);
