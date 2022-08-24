@@ -47,7 +47,13 @@ public class Arithmetic {
 		System.out.println(a + b);
 	}
 	
+	public String aaa (int a) {
+		return "";
+	}
 	
+	static void staticTest() {
+		System.out.println("나는 OO이다..");
+	}
 	
 }
 
