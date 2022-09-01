@@ -4,13 +4,18 @@ import java.util.Scanner;
 
 public class test03 {
 	
-	public static int solution(String str) {
+	public static String solution(String str) {
 		
-		int answer = 0;
-		for(int i=0; i<str.length();i++) {
-			answer += 1;
+		String answer = "";
+		int m = Integer.MIN_VALUE;
+		String[] s = str.split(" ");
+		for(String x : s) {
+			int len = x.length();
+			if(len>m) {
+				m=len;
+				answer=x;
+			}
 		}
-		
 		return answer;
 	}
 	
@@ -18,11 +23,13 @@ public class test03 {
 
 	public static void main(String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
+//		test03 T = new test03();
 		
-		String str = scan.next();
+		Scanner kb = new Scanner(System.in);
 		
-		System.out.println(test03.solution(str));
+		String str = kb.nextLine();
+		
+		System.out.println(solution(str));
 		
 	}
 	
