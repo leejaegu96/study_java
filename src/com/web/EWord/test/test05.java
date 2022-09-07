@@ -16,11 +16,11 @@ public class test05 {
 			if(!Character.isAlphabetic(s[lt])) lt++;
 			else if(!Character.isAlphabetic(s[rt])) rt--;
 			else {
-					char tmp = s[lt];
-					s[lt]=s[rt];
-					s[rt]=tmp;
-					lt++;
-					rt--;
+				char tmp = s[lt];
+				s[lt]=s[rt];
+				s[rt]=tmp;
+				lt++;
+				rt--;
 			}
 			
 		}
