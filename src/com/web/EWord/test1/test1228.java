@@ -19,7 +19,6 @@ public class test1228 {
 		
 		System.out.println(a+b==0.3);
 		
-		
 	}
 
 }
