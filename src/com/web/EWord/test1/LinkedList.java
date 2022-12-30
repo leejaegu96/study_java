@@ -159,7 +159,7 @@ public class LinkedList {
         linkedList.deleteNode(linkedList.searchNode(str).getData());
         linkedList.printList();
         
-        str = "sun";
+        str = "sun"; 
         
         linkedList.deleteNode(linkedList.searchNode(str).getData());
         linkedList.printList();
